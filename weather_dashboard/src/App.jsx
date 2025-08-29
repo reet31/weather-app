@@ -8,7 +8,7 @@ function App() {
 const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
   const [history, setHistory] = useState([]);
-const API_KEY="d8fa439b351843c4f708aaf4b407328b";
+const API_KEY="--";
   const fetchWeather = async (city) => {
     try {
       const res1 = await axios.get(
